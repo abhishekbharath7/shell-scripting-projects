@@ -9,6 +9,7 @@ A collection of shell scripts for automating common DevOps tasks.
 - **File:** `aws-resource-list.sh`
 - **Description:** Lists AWS resources (like EC2, S3, etc.) based on the service name you provide.
 - **Usage:**
+    ```bash
         ./aws_resource_list.sh  <aws_region> <aws_service>
 - **Example:**
     ```bash
@@ -23,3 +24,4 @@ A collection of shell scripts for automating common DevOps tasks.
 - **File:** `list-users.sh`
 - **Description:** Lists users who have access to a GitHub repository using GitHub API.
 - **Usage:**
+    ```bash
